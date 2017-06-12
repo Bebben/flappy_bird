@@ -9,8 +9,8 @@ function setup()
     createCanvas(1000, 860);
     ball = new Ball();
     wall.push(new Wall());
-    img = loadImage("bird.png");
-    bg = loadImage("wood.jpeg");
+    img = loadImage("img/bird.png");
+    bg = loadImage("img/wood.jpeg");
 }
 
 function draw()
